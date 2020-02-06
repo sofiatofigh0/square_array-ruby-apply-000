@@ -6,7 +6,7 @@ new_array=[]
 counter=0
 
 while counter<my_array.length do
-  new_array<< array[counter]
+  new_array<< array[counter]**2
   |numbers|
     puts "#{numbers**2}"
     
