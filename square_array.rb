@@ -4,8 +4,7 @@ def square_array(my_array)
   
   new_array=[]
   
-    my_array.each do |numbers|
-new_array << (numbers)**2
+    my_array.each do { |i| arr << **2 }
 
 end
 
@@ -13,3 +12,7 @@ return new_array
 
 end
 
+ arr = []
+  array.each { |i| arr << i ** 2 }
+  arr
+end
