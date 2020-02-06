@@ -5,7 +5,9 @@ def square_array(my_array)
 new_array=[]
 counter=0
 
-while counter<my_array.length do|numbers|
+while counter<my_array.length do
+  new_array
+  |numbers|
     puts "#{numbers**2}"
     
   end
