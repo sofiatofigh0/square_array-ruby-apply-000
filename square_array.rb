@@ -11,7 +11,7 @@ while array[counter] do
     
   end
 
-new_array
+return new_array
 
 end
 
