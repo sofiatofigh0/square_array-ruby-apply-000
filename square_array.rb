@@ -7,7 +7,7 @@ counter=0
 
 while counter<my_array.length do
   new_array<< array[counter]**2
-  |numbers|
+  counter+=1
     puts "#{numbers**2}"
     
   end
