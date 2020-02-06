@@ -1,17 +1,6 @@
 my_array=[1,2,3]
 
-def square_array(my_array)
+def square_array(numbers)
   
-new_array=[]
-counter=0
-
-while my_array[counter] do
-  new_array << my_array[counter] ** 2
-  counter+=1
-    
-  end
-
-return new_array
-
-end
+my_array.do |numbers|
 
